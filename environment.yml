@@ -1,0 +1,42 @@
+name: envname
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=23.0.1=py39haa95532_0
+  - python=3.9.16=h6244533_2
+  - pip:
+      - accelerate==0.24.1
+      - cachetools==5.3.1
+      - charset-normalizer==3.1.0
+      - gensim==4.3.1
+      - h5py==3.8.0
+      - huggingface-hub
+      - keras==2.12.0
+      - keras-applications==1.0.8
+      - matplotlib==3.7.1
+      - more-itertools==9.1.0
+      - multiviewae
+      - multiviewdata==0.7
+      - nltk==3.8.1
+      - numpy==1.23.5
+      - pandas==2.0.2
+      - scikit-image==0.21.0
+      - scikit-learn==1.2.2
+      - scipy==1.10.1
+      - segmentation-models==1.0.1
+      - sentencepiece==0.1.99
+      - tensorboard==2.12.3
+      - tensorboard-data-server==0.7.0
+      - tensorflow==2.12.0
+      - tensorflow-estimator==2.12.0
+      - tensorflow-intel==2.12.0
+      - tensorflow-io-gcs-filesystem==0.31.0
+      - tokenizers
+      - torch==1.13.1
+      - torchmetrics==0.11.4
+      - torchvision==0.14.1
+      - tqdm==4.65.0
+      - transformers==4.39.0
+      - umap==0.1.1
+      - zeugma==0.49
